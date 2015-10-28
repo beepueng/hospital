@@ -1,0 +1,234 @@
+@font-face{
+    font-family: WDB_Bangna;
+    src: url('font/WDB_Bangna.ttf');
+}
+
+html , body {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background-color: #E9EAED;
+      font-family: WDB_Bangna;
+}
+
+body {
+    width: 100%;
+    font-family: WDB_Bangna;
+}
+
+.header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1%;
+    height: 100%;
+  	overflow: auto;
+}
+
+.topic {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1%;
+    height: 100%;
+    overflow: auto;
+}
+
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    clear: both;
+    text-align: center;
+    padding: 5%;
+
+}
+.footer button{
+    font-family: WDB_Bangna;
+}
+.footer2 {
+    background-color: white;
+    color: black;
+    clear: both;
+    padding-top: 10px;
+    text-align: center;
+}
+.footer2 button{
+    font-family: WDB_Bangna;
+}
+.sectionLogin {
+    background-color: white;
+    color: black;
+    clear: both;
+    text-align: center;
+    padding: 5%;
+    border-top: #7AC5CD 10px dashed;
+  	border-bottom: #7AC5CD 10px dashed;
+}
+.sectionLogin button{
+    font-family: WDB_Bangna;
+}
+
+.sectionLogin input {
+  margin: 1%;
+}
+
+.sectionForm {
+    width: auto;
+    height: auto;
+    background-color: white;
+    color: black;
+    clear: both;
+    text-align: left;
+    padding: 5%;
+    border-top: #E9EAED 10px solid;
+}
+
+#formLayout
+{
+   padding: 10px;
+}
+
+    
+#formLayout label, #formLayout input
+{
+   display: block;
+   width: 200px;
+   float: left;
+   margin-bottom: 10px;
+   margin-right:0.5em;
+}
+ 
+#formLayout label
+{
+   text-align: right;
+   padding-right: 20px;
+}
+ 
+br
+{ 
+   clear: both;
+}
+
+#formLayout2
+{
+   padding-left: 10px;
+}
+
+#formLayout2 label
+{
+   width: 200px;
+   float: left;
+   margin-bottom: 10px;
+   margin-right:0.5em;
+}
+
+#formLayout2 input
+{
+   margin-right:0.5em;
+}
+ 
+#formLayout2 label
+{
+   text-align: right;
+   padding-right: 20px;
+}
+
+ul#navigation
+{
+list-style-type: none;
+margin: 0;
+padding: .5em 0;
+}
+
+ul#navigation li a
+{
+display: block;
+width: 5em;
+color: #FFF;
+background-color: #036;
+padding: .2em 0;
+text-align: center;
+text-decoration: none;
+}
+
+ul#navigation li a:hover
+{
+color: #FFF;
+background-color: #69C;
+}
+
+ul#navigation .left { float: left; }
+ul#navigation .right { float: right; }
+
+.menu
+{
+    background-color: white;
+    color: black;
+    clear: both;
+    text-align: center;
+    padding: 5%;	
+}
+
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#navcontainer ul li { display: inline; }
+#navcontainer ul li a { text-decoration: none; }
+
+.btn-next {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+}
+
+#menu_patient{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: dimgrey;
+    width: auto;
+    position: relative;
+    
+}
+
+footer{
+    
+}
+.wrapper{
+   display: block;
+   min-height: 100%;  browsers */
+   height: auto 
+   height: 100%; 
+   margin-bottom: -20px;
+}
+#menu_patient ul{
+    margin: 0px;
+    padding: 8px 0px;
+
+}
+#menu_patient li{
+    display: inline;
+    padding: 10px;
+    position: relative;
+
+}
+#menu_patient a{
+    text-decoration: none;
+    padding: 20px  20px;
+    color: black;
+}
+#menu_patient a:hover{
+    color: antiquewhite;
+    background-color: darkslateblue;
+}
